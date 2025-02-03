@@ -1,16 +1,23 @@
 {
-    "cli": {
-      "version": ">=0.45.0"
+  "cli": {
+    "version": ">=0.45.0"
+  },
+  "build": {
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "ios": {
+        "distribution": "store"
+      }
     },
-    "build": {
-      "production": {
-        "android": {
-          "buildType": "app-bundle"
-        },
-        "ios": {
-          "distribution": "store"
-        }
+    "development": {
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "distribution": "simulator"
       }
     }
   }
-  
+}
