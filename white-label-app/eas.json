@@ -5,8 +5,7 @@
     "build": {
       "production": {
         "android": {
-          "buildType": "app-bundle",
-           "jdk": "AdoptOpenJDK 17"
+          "buildType": "app-bundle"
         },
         "ios": {
           "distribution": "store"
